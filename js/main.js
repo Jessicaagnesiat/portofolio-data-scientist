@@ -30,7 +30,7 @@ function linkAction(){
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
 
-/*===================== ACCORDION SKILLS =================*/
+/*===================== ACCORDION SKILLS =================
 const skillsContent = document.getElementsByClassName('skills__content'),
     skillsHeader = document.querySelectorAll('.skills__header')
 
@@ -47,7 +47,7 @@ function toggleSkills(){
 
 skillsHeader.forEach((el) => {
     el.addEventListener('click', toggleSkills)
-})
+})*/
 
 
 /*======*/
@@ -131,11 +131,11 @@ let swiperPortfolio = new Swiper('.portfolio__container', {
     spaceBetween: 40,
 
     navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
+        nextEl: ".portfolio-button-next",
+        prevEl: ".portfolio-button-prev",
     },
     pagination: {
-        el: ".swiper-pagination", 
+        el: ".portfolio-pagination",
         clickable: true,
     },
 });
